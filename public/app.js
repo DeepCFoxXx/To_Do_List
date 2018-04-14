@@ -5,4 +5,10 @@ var init = function(){
   populate(todosArray);
 }
 
+var populate = function(todos){
+  todos.forEach(function(item){
+    addItem(item);
+  });
+}
+
 window.onload = init;
