@@ -1,0 +1,26 @@
+body {
+  font-family: sans-serif;
+  background-image: url("http://getwallpapers.com/wallpaper/full/d/5/8/1003734-download-mario-wallpaper-hd-1920x1080-for-samsung-galaxy.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  align-content: center;
+  align-self: center;
+  text-align: center;
+  color: white;
+}
+
+div {
+  position:absolute;
+  bottom: 250px;
+  right: 600px;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: sans-serif;
+  color: white;
+  position:absolute;
+  bottom: 350px;
+  right: 590px;
+  text-decoration: underline;
+}
