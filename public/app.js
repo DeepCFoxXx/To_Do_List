@@ -24,4 +24,10 @@ var handleButtonClick = function(){
   save(input.value);
 }
 
+var save = function(newItem){
+  var todosArray = JSON.parse(localStorage.getItem('todoList')) || [];
+  todosArray.push(newItem);
+  localStorage.setItem('todoList', JSON.stringify(todosArray));
+}
+
 window.onload = init;
