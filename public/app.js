@@ -18,4 +18,10 @@ var addItem = function(item){
   ul.appendChild(newItem);
 }
 
+var handleButtonClick = function(){
+  var input = document.querySelector('#new-item');
+  addItem(input.value);
+  save(input.value);
+}
+
 window.onload = init;
