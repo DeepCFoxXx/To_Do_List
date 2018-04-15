@@ -11,4 +11,11 @@ var populate = function(todos){
   });
 }
 
+var addItem = function(item){
+  var ul = document.querySelector('#todo-list');
+  var newItem = document.createElement('li');
+  newItem.innerText = item;
+  ul.appendChild(newItem);
+}
+
 window.onload = init;
